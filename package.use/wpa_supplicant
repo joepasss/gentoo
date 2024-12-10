@@ -1,0 +1,213 @@
+net-wireless/wpa_supplicant tkip
+# required by x11-misc/xdg-utils-1.2.1-r6::gentoo
+# required by www-client/google-chrome-129.0.6668.58::gentoo
+# required by google-chrome (argument)
+>=app-text/xmlto-0.0.28-r11 text
+# required by www-client/firefox-115.15.0::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.13.1-r1 postproc
+# required by www-client/google-chrome-129.0.6668.58::gentoo
+# required by google-chrome (argument)
+>=x11-libs/gtk+-3.24.41-r1 X
+# required by x11-libs/gtk+-3.24.41-r1::gentoo
+# required by www-client/google-chrome-129.0.6668.58::gentoo
+# required by google-chrome (argument)
+>=media-libs/libepoxy-1.5.10-r3 X
+# required by x11-libs/gtk+-3.24.41-r1::gentoo
+# required by www-client/google-chrome-129.0.6668.58::gentoo
+# required by google-chrome (argument)
+>=x11-libs/cairo-1.18.0 X
+# required by x11-libs/gtk+-3.24.41-r1::gentoo[X]
+# required by www-client/google-chrome-129.0.6668.58::gentoo
+# required by google-chrome (argument)
+>=media-libs/libglvnd-1.7.0 X
+# required by media-libs/mesa-24.1.7::gentoo[-video_cards_r300,-video_cards_r600,-video_cards_radeon,video_cards_radeonsi]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.122-r1 video_cards_radeon
+# required by app-i18n/ibus-hangul-1.5.4::gentoo[python_single_target_python3_11]
+# required by ibus-hangul (argument)
+>=app-i18n/ibus-1.5.29 python_targets_python3_11
+# required by app-i18n/ibus-hangul-1.5.4::gentoo[python_single_target_python3_11]
+# required by ibus-hangul (argument)
+>=dev-python/pygobject-3.46.0-r1 python_targets_python3_11
+# required by dev-python/pygobject-3.46.0-r1::gentoo[cairo]
+# required by gui-libs/gtk-4.14.4-r1::gentoo[introspection]
+# required by app-i18n/ibus-1.5.29::gentoo[gtk4]
+# required by app-i18n/ibus-hangul-1.5.4::gentoo[python_single_target_python3_11]
+# required by ibus-hangul (argument)
+>=dev-python/pycairo-1.26.1 python_targets_python3_11
+# required by dev-python/more-itertools-10.4.0::gentoo
+# required by dev-python/jaraco-functools-4.0.2::gentoo
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/gpep517-16 python_targets_python3_11
+# required by dev-python/pycairo-1.26.1::gentoo
+# required by dev-python/pygobject-3.46.0-r1::gentoo[cairo]
+# required by gui-libs/gtk-4.14.4-r1::gentoo[introspection]
+# required by app-i18n/ibus-1.5.29::gentoo[gtk4]
+# required by app-i18n/ibus-hangul-1.5.4::gentoo[python_single_target_python3_11]
+# required by ibus-hangul (argument)
+>=dev-python/setuptools-73.0.1 python_targets_python3_11
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-4.0.0 python_targets_python3_11
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-10.4.0 python_targets_python3_11
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-24.1 python_targets_python3_11
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/platformdirs-4.2.2 python_targets_python3_11
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/wheel-0.44.0 python_targets_python3_11
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/pycairo-1.26.1::gentoo
+# required by dev-python/pygobject-3.46.0-r1::gentoo[cairo]
+# required by gui-libs/gtk-4.14.4-r1::gentoo[introspection]
+# required by app-i18n/ibus-1.5.29::gentoo[gtk4]
+# required by app-i18n/ibus-hangul-1.5.4::gentoo[python_single_target_python3_11]
+# required by ibus-hangul (argument)
+>=dev-python/setuptools-scm-8.1.0 python_targets_python3_11
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/trove-classifiers-2024.7.2 python_targets_python3_11
+# required by dev-python/packaging-24.1::gentoo
+# required by dev-python/wheel-0.44.0::gentoo
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/flit-core-3.9.0 python_targets_python3_11
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-6.0.1 python_targets_python3_11
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-4.0.2 python_targets_python3_11
+# required by dev-python/jaraco-context-6.0.1::gentoo[-python_targets_python3_10,python_targets_python3_11]
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/backports-tarfile-1.2.0 python_targets_python3_11
+# required by dev-python/gpep517-16::gentoo
+# required by dev-python/backports-tarfile-1.2.0::gentoo
+# required by dev-python/jaraco-context-6.0.1::gentoo[-python_targets_python3_10,python_targets_python3_11]
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/setuptools-73.0.1::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+# required by dev-python/pluggy-1.5.0::gentoo
+# required by dev-python/hatchling-1.25.0::gentoo[-test]
+# required by dev-python/pygments-2.18.0::gentoo
+# required by dev-util/gtk-doc-1.33.2-r1::gentoo[python_single_target_python3_12]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[gtk-doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/installer-0.7.0 python_targets_python3_11
+# required by sys-power/suspend-1.0_p20200924::gentoo[crypt]
+# required by suspend (argument)
+>=dev-libs/libgcrypt-1.10.3-r1 static-libs
+# required by sys-power/suspend-1.0_p20200924::gentoo[crypt]
+# required by suspend (argument)
+>=dev-libs/libgpg-error-1.49 static-libs
+# required by sys-power/suspend-1.0_p20200924::gentoo[lzo]
+# required by suspend (argument)
+>=dev-libs/lzo-2.10 static-libs
+# required by games-util/r2modman-bin-3.1.49-r1::guru
+# required by games-util/r2modman-bin (argument)
+>=sys-libs/zlib-1.3.1-r1 minizip
+# required by dev-libs/nss-3.90.2-r1::gentoo
+# required by games-util/r2modman-bin-3.1.49-r1::guru
+# required by @selected
+# required by @world (argument)
+>=dev-db/sqlite-3.46.1 abi_x86_32
+# required by dev-db/sqlite-3.46.1::gentoo[readline]
+# required by dev-lang/python-3.12.6_p2::gentoo[sqlite]
+# required by dev-libs/libevdev-1.13.2::gentoo
+# required by dev-libs/libei-1.2.1::gentoo
+# required by x11-base/xwayland-24.1.2::gentoo[libei]
+# required by games-util/steam-launcher-1.0.0.81::steam-overlay[wayland,joystick]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/readline-8.2_p10 abi_x86_32
